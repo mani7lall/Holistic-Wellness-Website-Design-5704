@@ -4,12 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "npm run vite build",
-# "lint": "eslint .",
-# "lint:error": "eslint . --quiet", 
-    "preview": "vite preview"
-  },
+  "dev": "vite",
+  "build": "npm run vite build",
+  "lint": "eslint .",
+  "lint:error": "eslint . --quiet",
+  "preview": "vite preview"
+},
   "dependencies": {
     "@questlabs/react-sdk": "^2.1.9",
     "@supabase/supabase-js": "^2.39.0",
