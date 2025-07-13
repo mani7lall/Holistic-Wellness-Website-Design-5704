@@ -1,0 +1,205 @@
+<!-- Add this to your WordPress theme's header or use a custom CSS plugin -->
+<style>
+/* Custom Styles */
+.hebe-section {
+  padding: 80px 0;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #059669, #0d9488);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.custom-shadow {
+  box-shadow: 0 10px 25px rgba(16, 185, 129, 0.1);
+}
+
+.service-card {
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+/* Add more custom styles as needed */
+</style>
+
+<!-- Hero Section -->
+<section class="hebe-section hero-section">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <span class="badge bg-success-light mb-3">Trusted by 5000+ wellness seekers</span>
+        <h1 class="display-4 fw-bold mb-4">Transform Your Health <span class="gradient-text">Naturally</span></h1>
+        <p class="lead mb-4">Experience the power of holistic wellness with our evidence-based natural healthcare solutions. Personalized treatments for lasting health transformation.</p>
+        
+        <!-- Benefits List -->
+        <ul class="list-unstyled mb-5">
+          <li class="mb-3">
+            <i class="fas fa-check-circle text-success"></i>
+            Evidence-based natural treatments
+          </li>
+          <li class="mb-3">
+            <i class="fas fa-check-circle text-success"></i>
+            Personalized wellness plans
+          </li>
+          <li class="mb-3">
+            <i class="fas fa-check-circle text-success"></i>
+            Certified health practitioners
+          </li>
+          <li class="mb-3">
+            <i class="fas fa-check-circle text-success"></i>
+            Holistic mind-body approach
+          </li>
+        </ul>
+        
+        <!-- CTA Buttons -->
+        <div class="d-flex gap-3 mb-5">
+          <a href="#consultation" class="btn btn-success btn-lg">Start Your Journey</a>
+          <a href="#story" class="btn btn-outline-secondary btn-lg">Watch Our Story</a>
+        </div>
+      </div>
+      
+      <div class="col-lg-6">
+        <img src="[YOUR-HERO-IMAGE-URL]" alt="Natural wellness consultation" class="img-fluid rounded-4 custom-shadow">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section class="hebe-section bg-light" id="about">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="display-5 fw-bold mb-4">Your Trusted Partner in <span class="gradient-text">Natural Wellness</span></h2>
+      <p class="lead mb-5">For over 15 years, Hebe has been at the forefront of holistic healthcare, combining ancient wisdom with modern science to deliver transformative wellness solutions.</p>
+    </div>
+    
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <h3 class="h2 mb-4">Pioneering Natural Healthcare Excellence</h3>
+        <p class="mb-4">Founded with a vision to revolutionize healthcare through natural means, Hebe has grown to become a leading authority in holistic wellness. Our evidence-based approach combines traditional healing practices with cutting-edge research to deliver results that last.</p>
+        
+        <!-- Key Points -->
+        <ul class="list-unstyled mb-5">
+          <li class="mb-3">
+            <i class="fas fa-check-circle text-success"></i>
+            Certified by leading natural health organizations
+          </li>
+          <li class="mb-3">
+            <i class="fas fa-check-circle text-success"></i>
+            Personalized treatment plans for every individual
+          </li>
+          <li class="mb-3">
+            <i class="fas fa-check-circle text-success"></i>
+            Integration of mind, body, and spirit wellness
+          </li>
+          <li class="mb-3">
+            <i class="fas fa-check-circle text-success"></i>
+            Ongoing support throughout your health journey
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-6">
+        <img src="[YOUR-ABOUT-IMAGE-URL]" alt="Holistic wellness practice" class="img-fluid rounded-4 custom-shadow">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section class="hebe-section" id="services">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="display-5 fw-bold mb-4">Comprehensive <span class="gradient-text">Wellness Services</span></h2>
+      <p class="lead mb-5">Our integrated approach to natural health combines time-tested therapies with modern science to address your unique wellness needs.</p>
+    </div>
+    
+    <div class="row g-4">
+      <!-- Service Card 1 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card service-card h-100 border-0 custom-shadow">
+          <img src="[SERVICE-IMAGE-URL]" class="card-img-top" alt="Nutritional Therapy">
+          <div class="card-body">
+            <h3 class="h4 mb-3">Nutritional Therapy</h3>
+            <p class="card-text">Personalized nutrition plans using whole foods and natural supplements to optimize your health from within.</p>
+            <ul class="list-unstyled mb-4">
+              <li class="mb-2"><i class="fas fa-check text-success"></i> Custom meal planning</li>
+              <li class="mb-2"><i class="fas fa-check text-success"></i> Supplement guidance</li>
+              <li class="mb-2"><i class="fas fa-check text-success"></i> Metabolic assessment</li>
+              <li class="mb-2"><i class="fas fa-check text-success"></i> Ongoing support</li>
+            </ul>
+            <a href="#consultation" class="btn btn-success w-100">Learn More</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Add more service cards following the same structure -->
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="hebe-section bg-light" id="testimonials">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="display-5 fw-bold mb-4">Real Stories of <span class="gradient-text">Transformation</span></h2>
+      <p class="lead mb-5">Discover how our holistic approach has helped thousands achieve optimal health and transform their lives naturally.</p>
+    </div>
+    
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <!-- Testimonial 1 -->
+            <div class="carousel-item active">
+              <div class="card border-0 custom-shadow">
+                <div class="card-body text-center p-5">
+                  <img src="[TESTIMONIAL-IMAGE]" class="rounded-circle mb-4" width="100" alt="Client">
+                  <p class="lead mb-4">"Hebe transformed my life completely. After struggling with chronic fatigue for years, their holistic approach gave me my energy back. The personalized nutrition plan and stress management techniques have been life-changing."</p>
+                  <h5 class="mb-1">Sarah Johnson</h5>
+                  <p class="text-muted">Marketing Executive</p>
+                </div>
+              </div>
+            </div>
+            <!-- Add more testimonials following the same structure -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA Section -->
+<section class="hebe-section bg-success text-white" id="consultation">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <h2 class="display-5 fw-bold mb-4">Your Journey to Optimal Health Starts Here</h2>
+        <p class="lead mb-4">Take the first step towards transforming your health naturally. Book your complimentary consultation today.</p>
+        
+        <ul class="list-unstyled mb-5">
+          <li class="mb-3"><i class="fas fa-check-circle"></i> Comprehensive health assessment</li>
+          <li class="mb-3"><i class="fas fa-check-circle"></i> Personalized wellness roadmap</li>
+          <li class="mb-3"><i class="fas fa-check-circle"></i> Expert practitioner consultation</li>
+          <li class="mb-3"><i class="fas fa-check-circle"></i> No obligation or pressure</li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-6">
+        <div class="card border-0">
+          <div class="card-body p-4">
+            <h3 class="h4 mb-4">Book Your Free Consultation</h3>
+            
+            <!-- Contact Form - Replace with your WordPress contact form shortcode -->
+            [contact-form-7 id="YOUR-FORM-ID" title="Consultation Form"]
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
