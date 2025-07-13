@@ -4,7 +4,7 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  base: './',
+  base: './Holistic-Wellness-Website-Design-5704',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src')
